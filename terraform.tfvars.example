@@ -1,0 +1,16 @@
+environment          = "prod"
+primary_location     = "eastus2"
+enterprise_prefix    = "shriwadi"
+hub_vnet_cidr        = "10.0.0.0/16"
+firewall_subnet_cidr = "10.0.1.0/24"
+gateway_subnet_cidr  = "10.0.255.0/27"
+app_spoke_vnet_cidr  = "10.1.0.0/16"
+
+tags = {
+  Architecture  = "Microsoft-CAF"
+  Environment   = "Production"
+  ManagedBy     = "Terraform"
+  CostCenter    = "Enterprise-Platform-Core"
+  SecurityScore = "CIS-Benchmark-Enforced"
+  Author        = "Ramneek-Shriwadi"
+}
